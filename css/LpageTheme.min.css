@@ -1,0 +1,958 @@
+         @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        /* font-family: 'Roboto', sans-serif; */
+        @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+        /* font-family: 'Rubik', sans-serif; */
+      
+        *{
+            padding: 0;
+            margin: 0;
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+            box-sizing: border-box;
+        }
+
+        body{
+            padding: 0;
+            margin: 0;
+            background: #f5f5f5;
+        }
+
+        ::-moz-selection {
+            background: rgb(2 201 240 / 20%);
+        }
+        
+        ::selection {
+            background: rgb(2 201 240 / 10%);
+        }
+
+        @font-face {
+            font-family: HelveticaNormal;
+            src: url("https://res.cloudinary.com/dp1xkuswt/raw/upload/v1597987314/Helvetica_uld9sz.ttf");
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        a:hover{
+            text-decoration: none;
+        }
+
+        input:focus, textarea:focus, select:focus{
+            outline: none;
+        }
+
+        .flex{
+            display: flex;
+        }
+
+        .hidden{
+            display: none !important;
+        }
+
+        .invisible{
+            opacity: 0 !important;
+        }
+
+        img{
+            object-fit: cover;
+        }
+
+        .superbody-mobile{
+            position: fixed;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+            overflow-y: scroll;
+            height: 100vh;
+            width: 100%;
+            scroll-snap-type: y mandatory;
+        }
+
+        .superbody-mobile::-webkit-scrollbar {
+            display: none;
+        }
+
+        html.sr .load-hidden {
+            visibility: hidden;
+        }
+
+        /* Section 1 (All Rights Reserved By TechySamir) */
+
+        .ion-s1__icon_o {
+    height: 50px;
+    fill: transparent;
+    transform: scaleX(-1);
+    margin-bottom: 10px;
+    stroke: white;
+    width: 50px;
+    display: flex;
+}
+      
+          .ion-s2__icon_o{
+            height: 32px;
+            fill: transparent;
+            transform: scaleX(-1);
+            margin-bottom: 10px;
+            stroke: black;
+        }
+
+        .section-1{
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            background: #fefefe;
+            min-height: 600px;
+            scroll-snap-align: start;
+        }
+
+        .s1-title-1{
+            font-size: 2.4rem;
+            font-family: 'HelveticaNormal';
+            color: #414d59;
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .s1-title-2{
+            margin-top: 20px;
+            font-size: 20px;
+            font-family: 'Rubik', sans-serif;
+            color: #414d59;
+            text-align: center;
+            letter-spacing: 1.2px;
+        }
+
+        .s1-title-2-A{
+            letter-spacing: 1px;
+        }
+
+        .s1-t-2-A-S{
+            font-weight: bold;
+        }
+
+        .s1-get-app-btn-1{
+            display: flex;
+            width: 220px;
+            background: #3b4650;
+            align-items: center;
+            justify-content: center;
+            padding-top: 14px;
+            padding-bottom: 14px;
+            border-radius: 4px;
+            margin-top: 32px;
+            box-shadow: 0px 2px 10px #cacaca;
+        }
+
+        .s1-get-app-btn-1-A{
+            color: aliceblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+        }
+
+        .s1-get-app-btn-1-B{
+            font-family: 'Rubik', sans-serif;
+            color: #eaeaea;
+            font-size: 15px;
+            width: 146px;
+        }
+
+        .ion-s1-A{
+            height: 20px;
+            fill: transparent;
+            stroke: white;
+        }
+
+        .s1-get-app-btn-2{
+            display: flex;
+            width: 220px;
+            align-items: center;
+            justify-content: center;
+            padding-top: 14px;
+            padding-bottom: 14px;
+            border-radius: 4px;
+            margin-top: 16px;
+            border: 2px solid #3b4650;
+            height: 48px;
+            background: white;
+           box-shadow: 0px 2px 10px #cacaca;
+        }
+
+        .s1-get-app-btn-2-B{
+            font-family: 'Rubik', sans-serif;
+            color: #3b4650;
+            font-size: 15px;
+            width: 146px;
+            text-align: center;
+        }
+
+        .ion-s1-B{
+            height: 20px;
+            fill: #3b4650;
+        }
+
+        /* Section 2 (All Rights Reserved By TechySamir) */
+
+        .section-2{
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            align-items: center;
+            overflow: hidden;
+            background: #a39afe;
+            position: relative;
+            min-height: 600px;
+            scroll-snap-align: start;
+        }
+
+        .s2-title-1{
+            font-size: 22px;
+            font-family: 'Rubik', sans-serif;
+            margin-top: 40px;
+            color: ghostwhite;
+            font-weight: bold;
+        }
+
+        .s2-des-1{
+            font-size: 16px;
+            font-family: 'Rubik', sans-serif;
+            margin-top: 10px;
+            color: ghostwhite;
+            text-align: center;
+            width: 80%;
+        }
+
+        .s2-img-1{
+            width: 80%;
+            border-radius: 30px;
+            overflow: hidden;
+            position: absolute;
+            bottom: -160px;
+            border: 10px solid #b7b0fc;
+            box-shadow: 0px -2px 15px 2px #786de6;
+            background: #a69ef6;
+            max-width: 300px;
+        }
+
+        .s2-src-1{
+            width: 100%;
+            border-radius: 20px;
+        }
+
+        /* Section 3 (All Rights Reserved By TechySamir) */
+
+        .section-3{
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            align-items: center;
+            overflow: hidden;
+            background: #ffa497;
+            position: relative;
+            justify-content: flex-end;
+            min-height: 600px;
+            scroll-snap-align: start;
+        }
+
+        .s3-title-1{
+            font-size: 22px;
+            font-family: 'Rubik', sans-serif;
+            margin-bottom: 10px;
+            color: #fffcfb;
+            font-weight: bold;
+        }
+
+        .s3-des-1{
+            font-size: 16px;
+            font-family: 'Rubik', sans-serif;
+            margin-bottom: 40px;
+            color: #fffcfb;
+            text-align: center;
+            width: 80%;
+        }
+
+        .s3-img-1{
+            width: 80%;
+            border-radius: 30px;
+            overflow: hidden;
+            position: absolute;
+            top: -160px;
+            border: 10px solid #ffc3ba;
+            box-shadow: 0px -2px 15px 2px #ec9386;
+            background: #ffc3ba;
+            max-width: 300px;
+        }
+
+        .s3-src-1{
+            width: 100%;
+            border-radius: 20px;
+        }
+ 
+        /* Section 4 (All Rights Reserved By TechySamir) */
+
+        .section-4{
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            align-items: center;
+            overflow: hidden;
+            background: #1e1e23;
+            position: relative;
+            min-height: 600px;
+            scroll-snap-align: start;
+        }
+
+        .s4-title-1{
+            font-size: 22px;
+            font-family: 'Rubik', sans-serif;
+            margin-top: 40px;
+            color: #ececec;
+            font-weight: bold;
+        }
+
+        .s4-des-1{
+            font-size: 16px;
+            font-family: 'Rubik', sans-serif;
+            margin-top: 10px;
+            color: #ececec;
+            text-align: center;
+            width: 80%;
+        }
+
+        .s4-img-1{
+            width: 80%;
+            border-radius: 30px;
+            overflow: hidden;
+            position: absolute;
+            bottom: -160px;
+            border: 10px solid #454a4d;
+            box-shadow: 0px -2px 15px 2px #0f1112;
+            background: #383f43;
+            max-width: 300px;
+        }
+
+        .s4-src-1{
+            width: 100%;
+            border-radius: 20px;
+        }
+
+        /* Section 5 (All Rights Reserved By TechySamir) */
+
+        .section-5{
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            align-items: center;
+            overflow: hidden;
+            background: #46e8a1;
+            position: relative;
+            justify-content: flex-end;
+            min-height: 600px;
+            scroll-snap-align: start;
+        }
+
+        .s5-title-1{
+            font-size: 22px;
+            font-family: 'Rubik', sans-serif;
+            margin-bottom: 10px;
+            color: #f9fffc;
+            font-weight: bold;
+        }
+
+        .s5-des-1{
+            font-size: 16px;
+            font-family: 'Rubik', sans-serif;
+            margin-bottom: 40px;
+            color: #f9fffc;
+            text-align: center;
+            width: 80%;
+        }
+
+        .s5-img-1{
+            width: 80%;
+            border-radius: 30px;
+            overflow: hidden;
+            position: absolute;
+            top: -160px;
+            border: 10px solid #91ffcf;
+            box-shadow: 0px -2px 15px 2px #3ccb8d;
+            background: #91ffcf;
+            max-width: 300px;
+        }
+
+        .s5-src-1{
+            width: 100%;
+            border-radius: 20px;
+        }
+
+        /* Section 6 (All Rights Reserved By TechySamir) */
+
+        .section-6{
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            overflow: hidden;
+            background: #24292e;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            min-height: 600px;
+            scroll-snap-align: start;
+        }
+
+        .s6-1{
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 20px;
+            font-family: 'Rubik', sans-serif;
+            color: #ececec;
+        }
+
+        .s6-2{
+            text-align: center;
+            width: 80%;
+            margin-bottom: 20px;
+            font-family: 'HelveticaNormal';
+            font-size: 14px;
+            color: silver;
+            letter-spacing: 0.6px;
+        }
+
+        .s6-2_btn-1{
+            display: flex;
+            width: 220px;
+            background: #3b4650;
+            align-items: center;
+            justify-content: center;
+            padding-top: 14px;
+            padding-bottom: 14px;
+            border-radius: 4px;
+            margin-top: 32px;
+            box-shadow: 0px 6px 20px 0px #1e2327;
+        }
+
+        .ion-s6-A{
+            height: 22px;
+            fill: #f6f6f6;
+        }
+
+        .s6-2_btn-1-B{
+            font-family: 'Rubik', sans-serif;
+            color: #eaeaea;
+            font-size: 15px;
+            text-align: center;
+            width: 146px;
+        }
+
+        .s6-1-source-img-1-IN{
+            width: 240px;
+        }
+
+        /* Section 7 & 8  (All Rights Reserved By TechySamir) */
+
+        .section-7{
+            display: flex;
+            flex-direction: row;
+            height: 30vh;
+            overflow: hidden;
+            background: #323940;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            min-height: 160px;
+            scroll-snap-align: start;
+        }
+
+        .s7-1-A{
+            font-size: 50px;
+            font-family: 'HelveticaNormal';
+            margin-left: 20px;
+            font-weight: bold;
+            color: #e8e8e8;
+        }
+
+        .s7-1-B{
+            font-size: 20px;
+            font-family: 'HelveticaNormal';
+            margin-left: 20px;
+            color: #e8e8e8;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            padding-left: 10px;
+        }
+
+        .s7-2{
+            margin-left: 20px;
+            margin-right: 20px;
+            font-size: 15px;
+            font-family: 'Rubik', sans-serif;
+            color: #a9abad;
+        }
+
+        .section-8{
+            display: flex;
+            flex-direction: column;
+            height: 70vh;
+            overflow: hidden;
+            background: #f5f5f5;
+            position: relative;
+            align-items: flex-start;
+            justify-content: center;
+            min-height: 480px;
+            scroll-snap-align: start;
+        }
+
+        .s8-1{
+            font-size: 16px;
+            font-family: 'HelveticaNormal';
+            margin-left: 18px;
+            color: #323940;
+            text-align: left;
+            text-transform: uppercase;
+            padding-left: 10px;
+            font-weight: bold;
+        }
+
+        .s8-2-btn-A{
+            display: flex;
+            width: 220px;
+            background: #3b4650;
+            align-items: center;
+            justify-content: center;
+            padding-top: 14px;
+            padding-bottom: 14px;
+            border-radius: 4px;
+            margin-top: 32px;
+            margin-left: 20px;
+            max-height: 45px;
+        }
+
+        .ion-s8-A{
+            height: 20px;
+            fill: #f6f6f6;
+        }
+
+        .s8-1-btn-1-B{
+            font-family: 'Rubik', sans-serif;
+            color: #eaeaea;
+            font-size: 15px;
+            width: 146px;
+            text-align: center;
+        }
+      
+      .s8-1-btn-2-B{
+            font-family: 'Rubik', sans-serif;
+            color: #eaeaea;
+            font-size: 15px;
+            width: 146px;
+            text-align: center;
+        }
+
+        .s8-1-btn-1-B--2{
+            font-family: 'Rubik', sans-serif;
+            color: #3b4650;
+            font-size: 15px;
+            width: 146px;
+            text-align: center;
+        }
+
+        .ion-s8-A--2{
+            height: 20px;
+            color: #3b4650;
+        }
+
+        .s8-T-1{
+            font-size: 16px;
+            font-family: 'Rubik', sans-serif;
+            margin-left: 18px;
+            color: #323940;
+            text-align: left;
+            padding-left: 10px;
+            margin-top: 10px;
+            margin-right: 10px;
+        }
+
+        .s8-T-1--2{
+            font-size: 16px;
+            font-family: 'Rubik', sans-serif;
+            margin-left: 18px;
+            color: #323940;
+            text-align: left;
+            padding-left: 10px;
+            margin-top: 10px;
+            margin-right: 10px;
+            display: none;
+        }
+
+        .s8-2-btn-B{
+            display: flex;
+            width: 220px;
+            background: #ffffff;
+            align-items: center;
+            justify-content: center;
+            padding-top: 14px;
+            padding-bottom: 14px;
+            border-radius: 4px;
+            margin-top: 8px;
+            margin-left: 20px;
+            max-height: 45px;
+            border: 2px solid #3b4650;
+        }
+
+        .s8-T-2{
+            font-size: 16px;
+            font-family: 'HelveticaNormal';
+            margin-left: 18px;
+            color: #323940;
+            text-align: center;
+            text-transform: uppercase;
+            padding-left: 10px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .s8-T-3{
+            flex-direction: column;
+            margin-left: 20px;
+            margin-top: 10px;
+            font-family: 'Rubik', sans-serif;
+        }
+
+        .s8-T-3-A{
+            margin-bottom: 4px;
+            display: flex;
+            flex-direction: row;
+            transition: 0.1s;
+        }
+
+        .s8-T-3-A-TOUCH{
+            filter: opacity(0.4);
+        }
+
+        .s8-T-3-A a{
+            color: #444d55;
+            padding-left: 10px;
+        }
+
+        .s8-T-3-A svg{
+            height: 18px;
+            fill: #323940;
+            margin-left: 10px;
+        }
+
+        .s8-T-PV1{
+            font-size: 14px;
+            font-family: 'HelveticaNormal';
+            margin-left: 18px;
+            color: #323940;
+            text-align: center;
+            text-transform: uppercase;
+            padding-left: 10px;
+            font-weight: bold;
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .s8-T-PV2{
+            font-size: 14px;
+            font-family: 'HelveticaNormal';
+            margin-left: 18px;
+            color: #323940;
+            text-align: center;
+            text-transform: uppercase;
+            padding-left: 10px;
+            font-weight: bold;
+            margin-top: 6px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .s8TPv2CC{
+            height: 4px;
+            width: 4px;
+            background: #7f8d9d;
+            border-radius: 1px;
+        }
+
+        /* For tablets (All Rights Reserved By TechySamir) */
+        
+        @media only screen and (min-width: 600px) {
+
+        .s1-title-1 {
+            font-size: 3rem;
+        }
+
+        .s1-title-2{
+            font-size: 20px;
+            letter-spacing: 1px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        .s1-get-app-btn-1{
+            width: 280px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .s1-get-app-btn-1-B {
+            font-size: 16px;
+            width: 200px;
+            text-align: center;
+        }
+
+        .s1-get-app-btn-2 {
+            width: 280px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .s1-get-app-btn-2-B {
+            font-size: 16px;
+            width: 200px;
+            text-align: center;
+        }
+
+        /* Sections (All Rights Reserved By TechySamir) */
+
+        .section-2 {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            justify-content: center;
+        }
+
+        .s2-title-1 {
+            font-size: 26px;
+            margin-top: 40px;
+            margin-bottom: 10px;
+        }
+
+        .s2-des-1 {
+            font-size: 20px;
+            margin-top: 10px;
+            margin-bottom: 40px;
+            max-width: 400px;
+        }
+
+        .s2-img-1 {
+            position: relative;
+            bottom: auto;
+            margin-top: 20px;
+        }
+
+        /* Section 3 */
+
+        .section-3 {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            justify-content: center;
+            height: fit-content;
+            padding-bottom: 40px;
+        }
+
+        .s3-title-1 {
+            font-size: 26px;
+            margin-top: 0px;
+            margin-bottom: 10px;
+        }
+
+        .s3-des-1 {
+            font-size: 20px;
+            margin-top: 10px;
+            margin-bottom: 40px;
+            max-width: 400px;
+        }
+
+        .s3-img-1 {
+            position: relative;
+            bottom: auto;
+            margin-top: 20px;
+        }
+
+        /* Section 4 (All Rights Reserved By TechySamir) */
+
+        .section-4 {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            justify-content: center;
+        }
+
+        .s4-title-1 {
+            font-size: 26px;
+            margin-top: 40px;
+            margin-bottom: 10px;
+        }
+
+        .s4-des-1 {
+            font-size: 20px;
+            margin-top: 10px;
+            margin-bottom: 40px;
+            max-width: 400px;
+        }
+
+        .s4-img-1 {
+            position: relative;
+            bottom: auto;
+            margin-top: 20px;
+        }
+
+        /* Section 5 (All Rights Reserved By TechySamir) */
+
+        .section-5 {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            justify-content: center;
+            height: fit-content;
+            padding-bottom: 40px;
+        }
+
+        .s5-title-1 {
+            font-size: 26px;
+            margin-top: 0px;
+            margin-bottom: 10px;
+        }
+
+        .s5-des-1 {
+            font-size: 20px;
+            margin-top: 10px;
+            margin-bottom: 40px;
+            max-width: 400px;
+        }
+
+        .s5-img-1 {
+            position: relative;
+            bottom: auto;
+            margin-top: 20px;
+        }
+
+        /* Section 6 (All Rights Reserved By TechySamir) */
+
+        .section-6 {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            justify-content: center;
+        }
+
+        .s6-title-1 {
+            font-size: 26px;
+            margin-top: 40px;
+            margin-bottom: 10px;
+        }
+
+        .s6-des-1 {
+            font-size: 20px;
+            margin-top: 10px;
+            margin-bottom: 40px;
+            max-width: 400px;
+        }
+
+        .s6-img-1 {
+            position: relative;
+            bottom: auto;
+            margin-top: 20px;
+        }
+
+        /* -- (All Rights Reserved By TechySamir) */
+
+        .section-6 {
+            min-height: 600px;
+            max-height: 800px;
+        }
+
+        .s6-1-source-img-1-IN {
+            width: 280px;
+        }
+
+        .s6-2{
+            width: 60%;
+            font-size: 15px;
+        }
+
+        .s6-2_btn-1-A{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .s6-2_btn-1-B{
+            font-size: 16px;
+            width: 146px;
+        }
+
+        .section-7{
+            max-height: 200px;
+
+        }
+
+        .s7-2{
+            width: 200px;
+        }
+
+        .section-8{
+            max-height: 200px;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding-right: 40px;
+        }
+
+        .s8-T-1{
+            max-width: 400px;
+        }
+
+        .s8-T-1--2{
+            max-width: 400px;
+            display: block;
+        }
+
+        }
+
+        /* For desktop (All Rights Reserved By TechySamir) */
+        @media only screen and (min-width: 770px) {
+
+        .section-8{
+            justify-content: space-around;
+        }
+
+        .s6-2{
+            width: 40%;
+        }
+
+        .superbody-mobile::-webkit-scrollbar {
+            display: block;
+        }
+
+        ::-webkit-scrollbar {
+            width: 10px;
+            border-radius: 2px;
+            background: #f7f7f7;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #42505c;
+            border-radius: 2px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #364048;
+        }
+
+        }
